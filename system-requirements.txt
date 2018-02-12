@@ -1,0 +1,2 @@
+zip
+python36-pip

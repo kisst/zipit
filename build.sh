@@ -26,7 +26,7 @@ rm -fr /root/"$package_name".zip
 
 echo -e "\e[7m[BUILD]\e[27m Zip it up"
 pushd /root/packages
-zip -r9 /root/"$package_name".zip ./*
+zip -r9 /root/"$package_name".zip .
 popd
 
 pushd /root/
